@@ -1,13 +1,12 @@
 import java.util.Scanner;
-public class Example {
- public static void main(String[] args)
- {
-   int a,b,c;
-   //An object of scanner class
-Scanner read=new Scanner(System.in);
-a=read.nextInt();
-b=read.nextInt();
-c=a+b;
-System.out.println(c);
-}
+public class Example
+{
+   public static void main(String[] args){
+       int a,b,c;
+       Scanner read=new Scanner(System.in);
+       a=read.nextInt();
+       b=read.nextInt();
+       c=a+b;
+       System.out.printf("%d",c);
+   }
 }
